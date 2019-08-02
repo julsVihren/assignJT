@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.titlemap {
+    text-align: center;
+    top: 10px;
+}
+.sphere {
+    fill: lightblue;
+}
+.country {
+    stroke: black;
+    stroke-width: 0.05px;
+}
+.tick{
+    cursor: pointer;
+}
+.selectLegend {
+    stroke-width: 0.9px;
+}
+.country:hover {
+    fill: pink;
+}
+.toolTip {
+    fill: white;
+    background-color: black;
+    font: 12px;
+}
+.tick text {
+    font-size: 0.9em;
+    fill: black;
+    font-family: sans-serif;
+}
+.tick circle {
+    stroke: black;
+    stroke-opacity: 0.5;
+}
